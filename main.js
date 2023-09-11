@@ -25,6 +25,6 @@ function searchClicked() {
 
 function setCharacter(name, imgName, quote) {
   document.getElementById("character-name").innerHTML = name;
-  document.getElementById("main-img").src = 'img/${imgName}.png';
+  document.getElementById("main-img").src = `img/${imgName}.png `;
   document.getElementById("quote").innerHTML = quote;
 }
